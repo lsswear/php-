@@ -199,7 +199,6 @@ onUploadError: function(id, message){
 ###onFileTypeError
 
 验证文件类型错误时调用
-
 更多见[settings](# allowedtypes)
 
 onFileTypeError: function(file){
@@ -211,8 +210,7 @@ onFileTypeError: function(file){
 ###onFileSizeError
 
 验证文件大小错误时调用
-
-更多见[settings](# maxfilesize)。)
+更多见[settings](# maxfilesize)
 
 onFileSizeError: function(file){
 
@@ -223,8 +221,7 @@ onFileSizeError: function(file){
 ###onFileExtError
 
 验证文件扩展名错误时调用。
-
-看到(见[settings](# extfilter)。)
+更多见[settings](# extfilter)
 
 onFileExtError: function(file){
 
@@ -235,8 +232,7 @@ onFileExtError: function(file){
 ###onFilesMaxError
 
 上传文件总量错误时调用。
-
-更多见[设置](# maxfiles)。)
+更多见[设置](# maxfiles)
 
 onFilesMaxError: function(file){
 
