@@ -1,7 +1,7 @@
 
 jq插件下载地址：http://www.cnblogs.com/lhb25/p/drag-and-drop-jquery-file-uploader.html
 
-dmuploader.js 改动
+dmuploader.js 改动 dmuploader.min.js 为改动后压缩文件
 
 文件类型验证：142-148行
 
