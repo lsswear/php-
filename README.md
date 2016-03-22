@@ -73,13 +73,9 @@ or click to add files using the input<br />
 
 extraData: {
 
-  extraData:{
-
     varName:1,
 
     varName:'string'
-  }
-
 }
 
 ###maxFileSize
