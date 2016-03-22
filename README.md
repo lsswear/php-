@@ -31,13 +31,11 @@ $("#drop-area-div").dmUploader(options);
 
 <div id="drop-area-div" style="width:400px;height:300px;">
 
-< div id = " drop-area-div” style= "width:400 px;height:300 px;" >
+  Drag and Drop Files Here<br />
 
-Drag and Drop Files Here<br />
+  or click to add files using the input<br />
 
-or click to add files using the input<br />
-
-<input type="file" name="files[]" multiple="multiple" title="Click to add Files">
+  <input type="file" name="files[]" multiple="multiple" title="Click to add Files">
 
 </div>
 
