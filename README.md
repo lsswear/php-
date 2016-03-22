@@ -15,21 +15,13 @@ php文件根据swfupload修改
 
 # #演示
 
-Using Bootstrap: http://danielm.herokuapp.com/demos/dnd/
-
-使用引导:http://danielm.herokuapp.com/demos/dnd/
-
-Plain HTML: http://danielm.herokuapp.com/demos/dnd/simple.php
+使用 Bootstrap: http://danielm.herokuapp.com/demos/dnd/
 
 纯HTML:http://danielm.herokuapp.com/demos/dnd/simple.php
 
-Image Upload w/Preview: http://danielm.herokuapp.com/demos/dnd/image-preview.php
-
-图像上传w /预览:http://danielm.herokuapp.com/demos/dnd/image-preview.php
+图像上传预览:http://danielm.herokuapp.com/demos/dnd/image-preview.php
 
 ##API
-
-# # API
 
 $("#drop-area-div").dmUploader(options);
 
@@ -55,19 +47,13 @@ or click to add files using the input<br />
 
 ###url
 
-# # # url
-
 处理文件上传服务器URL。
 
 ###method
 
-# # #的方法
-
 异步提交时的请求,默认是post。
 
 ###extraData
-
-# # # extraData
 
 额外的参数与每个文件提交。(反正我没用)
 
@@ -80,47 +66,32 @@ extraData: {
 
 ###maxFileSize
 
-# # # maxFileSize
-
 验证每个文件的大小。默认是0 (没有限制)。
 
 ###allowedTypes
-
-# # # allowedTypes
 
 正则表达式匹配验证的文件类型。默认是\*。例子'png|jpg|zip'。
 
 ###extFilter
 
-# # # extFilter
-
 扩展(s)逗号间隔。默认是0(零)。Ej:jpg,png、gif
 
 ###maxFiles
-
-# # # maxFiles
 
 最大文件量。默认是0零(没有限制)
 
 ###dataType
 
-Data type corresponds to what the server is going to return after a successful upload.
-
 成功后服务器返回上传数据的对应类型。
 
-Default is <code>null</code>
 
 默认是null 根据服务器返回数据类型
-
-Other values can be: <code>xml</code>, <code>json</code>, <code>script</code>, or <code>html</code>
 
 其他值可以:xml,json,script,html
 
 Ref: http://api.jquery.com/jquery.ajax/
 
 ###fileName
-
-# # #文件名
 
 字段名称用于提交针对每个请求的文件。默认是file
 
