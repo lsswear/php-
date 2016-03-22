@@ -11,8 +11,6 @@ php文件根据swfupload修改
 
 #JQuery File Uploader
 
-##Demo
-
 # #演示
 
 使用 Bootstrap: http://danielm.herokuapp.com/demos/dnd/
@@ -27,8 +25,6 @@ $("#drop-area-div").dmUploader(options);
 
 ##Markup
 
-# #标记
-
 <div id="drop-area-div" style="width:400px;height:300px;">
 
   Drag and Drop Files Here<br />
@@ -40,8 +36,6 @@ $("#drop-area-div").dmUploader(options);
 </div>
 
 ##Options
-
-# #选项
 
 ###url
 
